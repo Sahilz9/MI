@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <header class="nav-container">
+      <div class="first-section">
+        <ul class="first-list">
+          <li>
+            <img
+              class="mi-logo"
+              src="data:image/png;base64,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"
+              alt=""
+            />
+          </li>
+          <li>Store</li>
+          <li>Phone</li>
+          <li>TV & Smart Home</li>
+          <li>Tablet</li>
+          <li>LifeStyle</li>
+        </ul>
+      </div>
+
+      <div class="second-section">
+        <span class="second"><a href="#" class="discover">Discover</a></span>
+        <span class="second1"><a href="#" class="discover">Support</a></span>
+        <div class="icons">
+          <a href="#"
+            ><img class="nav-icons" src="./search.png" alt="search"
+          /></a>
+          <a href="#"><img class="cart-icon" src="./cart.png" alt="cart" /></a>
+          <a href="#"
+            ><img class="profile-icon" src="./profile.png" alt="profile"
+          /></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- card section -->
+
+    <section class="card-container">
+      <div class="cards">
+        <p class="card-heading">Redmi Earphones</p>
+        <input class="discount" type="text" value="25% off" />
+
+        <div class="card-footer">
+          <div class="amount-container">
+            <span class="amount1"><span class="rupee">&#x20B9;</span>449</span>
+            <br />
+            <span class="amount2"><span>&#x20B9;</span>599</span>
+          </div>
+          <img
+            class="card-image"
+            src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1598953987.67371928.png?thumb=1&w=200&q=85"
+            alt="card-img"
+          />
+        </div>
+      </div>
+
+      <div class="cards">
+        <p class="card-heading">Mi Dual Driver In-ear</p>
+        <p class="card-heading1">Earphones</p>
+        <!-- <br /> -->
+        <input class="discount" type="text" value="25% off" />
+
+        <div class="card-footer">
+          <div class="amount-container">
+            <span class="amount1"><span class="rupee">&#x20B9;</span>449</span>
+            <br />
+            <span class="amount2"><span>&#x20B9;</span>599</span>
+          </div>
+          <img
+            class="card-image"
+            src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1617825722.98226831.png?thumb=1&w=200&q=85"
+            alt="card-img"
+          />
+        </div>
+      </div>
+
+      <div class="cards">
+        <p class="card-heading">Redmi Sonic Bass Wireless</p>
+        <p class="card-heading1">Earphones 2</p>
+        <!-- <br /> -->
+        <input class="discount" type="text" value="25% off" />
+
+        <div class="card-footer">
+          <div class="amount-container">
+            <span class="amount1"><span class="rupee">&#x20B9;</span>449</span>
+            <br />
+            <span class="amount2"><span>&#x20B9;</span>599</span>
+          </div>
+          <img
+            class="card-image"
+            src="https://i03.appmifile.com/9_item_in/01/08/2023/5b55c8858a7f2107e20d448e280e6357.jpg?thumb=1&w=200&q=85"
+            alt="card-img"
+          />
+        </div>
+      </div>
+
+      <div class="cards">
+        <p class="card-heading">Mi Portable Bluetooth</p>
+        <p class="card-heading1">Speaker (16W)</p>
+        <!-- <br /> -->
+        <input class="discount" type="text" value="25% off" />
+
+        <div class="card-footer">
+          <div class="amount-container">
+            <span class="amount1"><span class="rupee">&#x20B9;</span>449</span>
+            <br />
+            <span class="amount2"><span>&#x20B9;</span>599</span>
+          </div>
+          <img
+            class="card-image"
+            src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1613844064.93574921.jpg?thumb=1&w=200&q=85"
+            alt="card-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- image section -->
+
+    <div class="image-section">
+      <div class="image-heading">
+        <div class="content">
+          <p class="save-upto">Save Up to 65%</p>
+          <p class="save-upto1">On Chargers & Cables</p>
+          <p class="free-delivery">Free Delivery on All Products</p>
+          <button class="buy-button">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section -->
+
+    <footer class="card-container">
+      <div class="cards">
+        <p class="card-heading">Redmi Earphones</p>
+        <input class="discount" type="text" value="25% off" />
+
+        <div class="card-footer">
+          <div class="amount-container">
+            <span class="amount1"><span class="rupee">&#x20B9;</span>449</span>
+            <br />
+            <span class="amount2"><span>&#x20B9;</span>599</span>
+          </div>
+          <img
+            class="card-image"
+            src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1598953987.67371928.png?thumb=1&w=200&q=85"
+            alt="card-img"
+          />
+        </div>
+      </div>
+
+      <div class="cards">
+        <p class="card-heading">Mi Dual Driver In-ear</p>
+        <p class="card-heading1">Earphones</p>
+        <!-- <br /> -->
+        <input class="discount" type="text" value="25% off" />
+
+        <div class="card-footer">
+          <div class="amount-container">
+            <span class="amount1"><span class="rupee">&#x20B9;</span>449</span>
+            <br />
+            <span class="amount2"><span>&#x20B9;</span>599</span>
+          </div>
+          <img
+            class="card-image"
+            src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1617825722.98226831.png?thumb=1&w=200&q=85"
+            alt="card-img"
+          />
+        </div>
+      </div>
+
+      <div class="cards">
+        <p class="card-heading">Redmi Sonic Bass Wireless</p>
+        <p class="card-heading1">Earphones 2</p>
+        <!-- <br /> -->
+        <input class="discount" type="text" value="25% off" />
+
+        <div class="card-footer">
+          <div class="amount-container">
+            <span class="amount1"><span class="rupee">&#x20B9;</span>449</span>
+            <br />
+            <span class="amount2"><span>&#x20B9;</span>599</span>
+          </div>
+          <img
+            class="card-image"
+            src="https://i03.appmifile.com/9_item_in/01/08/2023/5b55c8858a7f2107e20d448e280e6357.jpg?thumb=1&w=200&q=85"
+            alt="card-img"
+          />
+        </div>
+      </div>
+
+      <div class="cards">
+        <p class="card-heading">Mi Portable Bluetooth</p>
+        <p class="card-heading1">Speaker (16W)</p>
+        <!-- <br /> -->
+        <input class="discount" type="text" value="25% off" />
+
+        <div class="card-footer">
+          <div class="amount-container">
+            <span class="amount1"><span class="rupee">&#x20B9;</span>449</span>
+            <br />
+            <span class="amount2"><span>&#x20B9;</span>599</span>
+          </div>
+          <img
+            class="card-image"
+            src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1613844064.93574921.jpg?thumb=1&w=200&q=85"
+            alt="card-img"
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

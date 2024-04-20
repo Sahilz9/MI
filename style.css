@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=M+PLUS+Rounded+1c&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Square+Peg&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 55px;
+  /* border: 1px solid black; */
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.first-section {
+  margin: 0 0 0 15em;
+}
+
+.first-list {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  align-items: center;
+  font-weight: 400;
+  margin: 5px 0 0 0;
+}
+
+.mi-logo {
+  height: 32px;
+  width: 32px;
+  object-fit: cover;
+  margin: 10px 0 0 0;
+}
+
+header > div > ul > li:nth-of-type(2) {
+  color: #ff8530;
+}
+
+.second-section {
+  margin: 0 20em 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.second {
+  margin: 1em -1em 0 0;
+  font-weight: 400;
+}
+
+.second1 {
+  margin: 1em 0 0 4em;
+  font-weight: 400;
+}
+
+.discover {
+  color: black;
+  text-decoration: none;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-icons {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  margin: 10px -3em 0 4em;
+}
+
+.cart-icon {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  margin: 10px 0 0 5em;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  margin: 7px 0 0 2em;
+}
+
+/* card section */
+
+.card-container {
+  height: 350px;
+  display: flex;
+  margin: 1em 0 0 20em;
+}
+
+.cards {
+  height: 300px;
+  width: 300px;
+  margin: 1em 0 0 1em;
+  background-color: white;
+}
+
+.card-heading {
+  padding: 3em 0 0 1.5em;
+  font-weight: 500;
+}
+
+.card-heading1 {
+  padding: 0 0 0 1.5em;
+  font-weight: 500;
+}
+
+.discount {
+  margin: 1em 0 0 1.7em;
+  height: 25px;
+  width: 70px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #fff0e5;
+  border: 1px solid #ff6c05;
+  color: #ff6c05;
+}
+
+.card-footer {
+  display: flex;
+  margin: 1em 0 0 1em;
+}
+
+.amount1 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 0 0 1em;
+}
+
+.rupee {
+  font-size: 16px;
+}
+
+.amount2 {
+  text-decoration: line-through;
+  color: #d0d0d0;
+  padding: 0 0 0 1em;
+}
+
+.amount-container {
+  margin: 5em 0 0 0;
+}
+
+.card-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin: -1em 0 0 4em;
+}
+
+/* image section */
+
+.image-section {
+  background-image: url(https://i03.appmifile.com/313_operator_in/05/06/2023/da85ab08b8be256a4ac91a43c02ad695.jpg?thumb=1&w=3360&f=webp&q=85);
+  max-width: 65%;
+  height: 200px;
+  object-fit: cover;
+  background-position: right;
+  margin: 1em 0 0 21em;
+  display: flex;
+}
+
+.image-heading {
+  width: 700px;
+  height: 150px;
+}
+
+.save-upto {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 1em 0 0 2em;
+}
+
+.save-upto1 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 5px 0 5px 2em;
+}
+
+.free-delivery {
+  height: 30px;
+  width: 100%;
+  margin: 10px 0 5px 3em;
+}
+
+.buy-button {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 110px;
+  height: 40px;
+  font-size: 17px;
+  border-radius: 10px;
+  padding: 6px 0 6px 0;
+  margin: 0 0 0 3em;
+}
